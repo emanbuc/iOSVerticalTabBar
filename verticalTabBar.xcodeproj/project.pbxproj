@@ -18,6 +18,19 @@
 		A1F04A4317E318B900405389 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F04A4217E318B900405389 /* Default-568h@2x.png */; };
 		A1F04A4617E318B900405389 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F04A4417E318B900405389 /* MainStoryboard.storyboard */; };
 		A1F04A4917E318B900405389 /* GianosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F04A4817E318B900405389 /* GianosViewController.m */; };
+		A1F04A5417E31BCF00405389 /* navBarIcon_account.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F04A5017E31BCF00405389 /* navBarIcon_account.png */; };
+		A1F04A5517E31BCF00405389 /* navBarIcon_agenda_enab.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F04A5117E31BCF00405389 /* navBarIcon_agenda_enab.png */; };
+		A1F04A5617E31BCF00405389 /* navBarIcon_documenti.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F04A5217E31BCF00405389 /* navBarIcon_documenti.png */; };
+		A1F04A5717E31BCF00405389 /* navBarIcon_persone_enab.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F04A5317E31BCF00405389 /* navBarIcon_persone_enab.png */; };
+		A1F04A5917E31C3600405389 /* navBarIcon_persone.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F04A5817E31C3600405389 /* navBarIcon_persone.png */; };
+		A1F04A5B17E31C6B00405389 /* navBarIcon_agenda.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F04A5A17E31C6B00405389 /* navBarIcon_agenda.png */; };
+		A1F04A6417E3213300405389 /* NavigationSectionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F04A6317E3213300405389 /* NavigationSectionInfo.m */; };
+		A1F04A6617E3254000405389 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F04A6517E3254000405389 /* QuartzCore.framework */; };
+		A1F04A7217E3264F00405389 /* FSVerticalTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F04A6B17E3264F00405389 /* FSVerticalTabBar.m */; };
+		A1F04A7317E3264F00405389 /* FSVerticalTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F04A6D17E3264F00405389 /* FSVerticalTabBarButton.m */; };
+		A1F04A7417E3264F00405389 /* FSVerticalTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F04A6F17E3264F00405389 /* FSVerticalTabBarController.m */; };
+		A1F04A7517E3264F00405389 /* selectionIndicatorImage.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F04A7017E3264F00405389 /* selectionIndicatorImage.png */; };
+		A1F04A7617E3264F00405389 /* selectionIndicatorImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F04A7117E3264F00405389 /* selectionIndicatorImage@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +48,25 @@
 		A1F04A4017E318B900405389 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		A1F04A4217E318B900405389 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A1F04A4517E318B900405389 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		A1F04A4717E318B900405389 /* GianosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GianosViewController.h; sourceTree = "<group>"; };
+		A1F04A4717E318B900405389 /* GianosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GianosViewController.h; path = verticalTabBar/GianosViewController.h; sourceTree = SOURCE_ROOT; };
 		A1F04A4817E318B900405389 /* GianosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GianosViewController.m; sourceTree = "<group>"; };
+		A1F04A5017E31BCF00405389 /* navBarIcon_account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navBarIcon_account.png; sourceTree = "<group>"; };
+		A1F04A5117E31BCF00405389 /* navBarIcon_agenda_enab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navBarIcon_agenda_enab.png; sourceTree = "<group>"; };
+		A1F04A5217E31BCF00405389 /* navBarIcon_documenti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navBarIcon_documenti.png; sourceTree = "<group>"; };
+		A1F04A5317E31BCF00405389 /* navBarIcon_persone_enab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navBarIcon_persone_enab.png; sourceTree = "<group>"; };
+		A1F04A5817E31C3600405389 /* navBarIcon_persone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navBarIcon_persone.png; sourceTree = "<group>"; };
+		A1F04A5A17E31C6B00405389 /* navBarIcon_agenda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navBarIcon_agenda.png; sourceTree = "<group>"; };
+		A1F04A6217E3213300405389 /* NavigationSectionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationSectionInfo.h; sourceTree = "<group>"; };
+		A1F04A6317E3213300405389 /* NavigationSectionInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationSectionInfo.m; sourceTree = "<group>"; };
+		A1F04A6517E3254000405389 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A1F04A6A17E3264F00405389 /* FSVerticalTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSVerticalTabBar.h; sourceTree = "<group>"; };
+		A1F04A6B17E3264F00405389 /* FSVerticalTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSVerticalTabBar.m; sourceTree = "<group>"; };
+		A1F04A6C17E3264F00405389 /* FSVerticalTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSVerticalTabBarButton.h; sourceTree = "<group>"; };
+		A1F04A6D17E3264F00405389 /* FSVerticalTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSVerticalTabBarButton.m; sourceTree = "<group>"; };
+		A1F04A6E17E3264F00405389 /* FSVerticalTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSVerticalTabBarController.h; sourceTree = "<group>"; };
+		A1F04A6F17E3264F00405389 /* FSVerticalTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSVerticalTabBarController.m; sourceTree = "<group>"; };
+		A1F04A7017E3264F00405389 /* selectionIndicatorImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectionIndicatorImage.png; sourceTree = "<group>"; };
+		A1F04A7117E3264F00405389 /* selectionIndicatorImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selectionIndicatorImage@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1F04A6617E3254000405389 /* QuartzCore.framework in Frameworks */,
 				A1F04A2D17E318B900405389 /* UIKit.framework in Frameworks */,
 				A1F04A2F17E318B900405389 /* Foundation.framework in Frameworks */,
 				A1F04A3117E318B900405389 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +87,13 @@
 		A1F04A2017E318B900405389 = {
 			isa = PBXGroup;
 			children = (
+				A1F04A6517E3254000405389 /* QuartzCore.framework */,
+				A1F04A5A17E31C6B00405389 /* navBarIcon_agenda.png */,
+				A1F04A5817E31C3600405389 /* navBarIcon_persone.png */,
+				A1F04A5017E31BCF00405389 /* navBarIcon_account.png */,
+				A1F04A5117E31BCF00405389 /* navBarIcon_agenda_enab.png */,
+				A1F04A5217E31BCF00405389 /* navBarIcon_documenti.png */,
+				A1F04A5317E31BCF00405389 /* navBarIcon_persone_enab.png */,
 				A1F04A3217E318B900405389 /* verticalTabBar */,
 				A1F04A2B17E318B900405389 /* Frameworks */,
 				A1F04A2A17E318B900405389 /* Products */,
@@ -83,6 +121,9 @@
 		A1F04A3217E318B900405389 /* verticalTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				A1F04A6917E3264F00405389 /* VerticalTabBarController */,
+				A1F04A6217E3213300405389 /* NavigationSectionInfo.h */,
+				A1F04A6317E3213300405389 /* NavigationSectionInfo.m */,
 				A1F04A3B17E318B900405389 /* GianosAppDelegate.h */,
 				A1F04A3C17E318B900405389 /* GianosAppDelegate.m */,
 				A1F04A4417E318B900405389 /* MainStoryboard.storyboard */,
@@ -105,6 +146,21 @@
 				A1F04A4217E318B900405389 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1F04A6917E3264F00405389 /* VerticalTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				A1F04A6A17E3264F00405389 /* FSVerticalTabBar.h */,
+				A1F04A6B17E3264F00405389 /* FSVerticalTabBar.m */,
+				A1F04A6C17E3264F00405389 /* FSVerticalTabBarButton.h */,
+				A1F04A6D17E3264F00405389 /* FSVerticalTabBarButton.m */,
+				A1F04A6E17E3264F00405389 /* FSVerticalTabBarController.h */,
+				A1F04A6F17E3264F00405389 /* FSVerticalTabBarController.m */,
+				A1F04A7017E3264F00405389 /* selectionIndicatorImage.png */,
+				A1F04A7117E3264F00405389 /* selectionIndicatorImage@2x.png */,
+			);
+			path = VerticalTabBarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +220,14 @@
 				A1F04A4117E318B900405389 /* Default@2x.png in Resources */,
 				A1F04A4317E318B900405389 /* Default-568h@2x.png in Resources */,
 				A1F04A4617E318B900405389 /* MainStoryboard.storyboard in Resources */,
+				A1F04A5417E31BCF00405389 /* navBarIcon_account.png in Resources */,
+				A1F04A5517E31BCF00405389 /* navBarIcon_agenda_enab.png in Resources */,
+				A1F04A5617E31BCF00405389 /* navBarIcon_documenti.png in Resources */,
+				A1F04A5717E31BCF00405389 /* navBarIcon_persone_enab.png in Resources */,
+				A1F04A5917E31C3600405389 /* navBarIcon_persone.png in Resources */,
+				A1F04A5B17E31C6B00405389 /* navBarIcon_agenda.png in Resources */,
+				A1F04A7517E3264F00405389 /* selectionIndicatorImage.png in Resources */,
+				A1F04A7617E3264F00405389 /* selectionIndicatorImage@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +241,10 @@
 				A1F04A3917E318B900405389 /* main.m in Sources */,
 				A1F04A3D17E318B900405389 /* GianosAppDelegate.m in Sources */,
 				A1F04A4917E318B900405389 /* GianosViewController.m in Sources */,
+				A1F04A6417E3213300405389 /* NavigationSectionInfo.m in Sources */,
+				A1F04A7217E3264F00405389 /* FSVerticalTabBar.m in Sources */,
+				A1F04A7317E3264F00405389 /* FSVerticalTabBarButton.m in Sources */,
+				A1F04A7417E3264F00405389 /* FSVerticalTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +334,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "verticalTabBar/verticalTabBar-Prefix.pch";
 				INFOPLIST_FILE = "verticalTabBar/verticalTabBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -277,6 +346,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "verticalTabBar/verticalTabBar-Prefix.pch";
 				INFOPLIST_FILE = "verticalTabBar/verticalTabBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

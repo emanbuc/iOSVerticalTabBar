@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
-        <!--Gianos View Controller-->
+        <!--Vertical Tab Bar Controller-->
         <scene sceneID="4">
             <objects>
-                <viewController id="2" customClass="GianosViewController" sceneMemberID="viewController">
+                <viewController id="2" customClass="FSVerticalTabBarController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -99,9 +99,6 @@
     <classes>
         <class className="FSVerticalTabBarController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/FSVerticalTabBarController.h"/>
-        </class>
-        <class className="GianosViewController" superclassName="FSVerticalTabBarController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/GianosViewController.h"/>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>

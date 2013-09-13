@@ -31,11 +31,11 @@
     NSMutableArray* controllersToAdd = [[NSMutableArray alloc] init];
     
     
-    NavigationSectionInfo* nsi1 =[[NavigationSectionInfo alloc]initWithInfo:@"agenda" :@"Agenda" :@"navBarIcon_agenda"];
+    NavigationSectionInfo* nsi1 =[[NavigationSectionInfo alloc]initWithInfo:@"sezione1" :@"sezione1" :@"magnifying-glass.png"];
     
-    NavigationSectionInfo* nsi2 =[[NavigationSectionInfo alloc]initWithInfo:@"persone" :@"Persone" :@"navBarIcon_persone"];
+    NavigationSectionInfo* nsi2 =[[NavigationSectionInfo alloc]initWithInfo:@"sezione2" :@"sezione2" :@"magnifying-glass.png"];
     
-    NavigationSectionInfo* nsi3 =[[NavigationSectionInfo alloc]initWithInfo:@"account" :@"Account" :@"navBarIcon_account"];
+    NavigationSectionInfo* nsi3 =[[NavigationSectionInfo alloc]initWithInfo:@"sezione3" :@"sezione3" :@"magnifying-glass.png"];
     
     navigationMap = [NSArray arrayWithObjects:nsi1,nsi2,nsi3,nil];
     
